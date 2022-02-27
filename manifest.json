@@ -1,0 +1,22 @@
+{
+  "name": "检测语言",
+  "version": "1.0.2",
+  "author": "dev-coco",
+  "manifest_version": 2,
+  "description": "检测网页语言出现的比例。",
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+  "icons": {
+      "128": "icon.png"
+    },
+  "content_scripts": [
+    {
+      "matches": [
+       "*://*.facebook.com/*"
+      ],
+        "js": ["detectLanguage.js"]
+    }
+  ],
+  "permissions": ["*://*.facebook.com/*"]
+}
