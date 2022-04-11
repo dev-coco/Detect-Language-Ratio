@@ -1,9 +1,9 @@
 {
   "name": "检测语言",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": "dev-coco",
   "manifest_version": 3,
-  "description": "检测网页语言出现的比例。",
+  "description": "检测页面语言比例。",
   "action": {
     "default_icon": "icon.png"
   },
