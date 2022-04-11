@@ -163,12 +163,10 @@ elementAlert.appendChild(paraAlert)
 paraAlert.setAttribute('id', 'detect-language')
 paraAlert.setAttribute('ondblclick', 'document.getElementById("detect-language").style="display:none"')
 
-// run
-detectLanguage()
-setInterval(function () {
+window.addEventListener('scroll', function () {
   detectLanguage()
-}, 1500)
-
+})
+  
 function postDate () {
   let result = []
   const getDate = document.getElementsByClassName('du4w35lb k4urcfbm l9j0dhe7 sjgh65i0')
