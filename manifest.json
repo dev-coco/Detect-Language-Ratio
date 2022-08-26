@@ -1,6 +1,6 @@
 {
   "name": "检测语言",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "author": "dev-coco",
   "manifest_version": 3,
   "description": "检测页面语言比例。",
