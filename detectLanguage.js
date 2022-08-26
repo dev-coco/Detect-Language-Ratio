@@ -46,7 +46,7 @@ function postDate () {
       // postDate = getDate[i].getElementsByClassName('j1lvzwm4 stjgntxs ni8dbmo4 q9uorilb gpro0wi8')[0].outerText.replace(/=/g, '')
       postDate = getDate[i].getElementsByClassName('gewbibgg hf30pyar lq84ybu9 aglvbi8b cxfqmxzd')[0].outerText.replace(/=/g, '')
     } catch {
-      postDate = getDate[i].getElementsByClassName('oajrlxb2 g5ia77u1 qu0x051f esr5mh6w e9989ue4 r7d6kgcz rq0escxv nhd2j8a9 nc684nl6 p7hjln8o kvgmc6g5 cxmmr5t8 oygrvhab hcukyx3x jb3vyjys rz4wbd8a qt6c0cv9 a8nywdso i1ao9s8h esuyzwwr f1sip0of lzcic4wl gmql0nx0 gpro0wi8 b1v8xokw')[0].outerText.replace(/=/g, '')
+      postDate = getDate[i].getElementsByClassName('qi72231t nu7423ey n3hqoq4p r86q59rh b3qcqh3k fq87ekyn bdao358l fsf7x5fv rse6dlih s5oniofx m8h3af8h l7ghb35v kjdc1dyq kmwttqpk srn514ro oxkhqvkx rl78xhln nch0832m cr00lzj9 rn8ck1ys s3jn8y49 icdlwmnq jxuftiz4 cxfqmxzd tes86rjd')[0].outerText.replace(/=/g, '')
     }
     result += `<tr><td class="like-count">${postLikeCount}</td><td> ${postDate}</td>`
     try {
