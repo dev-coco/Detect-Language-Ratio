@@ -1,7 +1,7 @@
 {
   "name": "检测语言",
-  "version": "1.0.7",
-  "author": "dev-coco",
+  "version": "1.0.8",
+  "author": "Raz1ner",
   "manifest_version": 3,
   "description": "检测页面语言比例。",
   "action": {
